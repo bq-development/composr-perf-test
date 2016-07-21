@@ -2,7 +2,11 @@
 
 ## Init
 
-`pm2=true corbel-composr`
+`PM2=true corbel-composr`
+
+### See logs  
+
+`pm2 logs` or `tail -f logs/composr.log`
 
 ## Attack
 
