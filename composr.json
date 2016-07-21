@@ -1,0 +1,12 @@
+{
+  "name": "composr-stress-tests",
+  "subdomain": "mydomain",
+  "baseUri": "https://composr-int.bqws.io/",
+  "author": "rafael-pedrola",
+  "version": "1.0.0",
+  "source_location": "src/",
+  "git": "",
+  "license": "MIT",
+  "vd_dependencies": {},
+  "environments": []
+}

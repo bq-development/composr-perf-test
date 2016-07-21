@@ -1,0 +1,5 @@
+GET http://localhost:3000/composr/cached
+Accept: application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOjEsImF1ZCI6ImEiLCJleHAiOjE0NjkwOTY3NDQsInVzZXJJZCI6ImFiYyJ9.QdeVKsaKujB5xB7AgaIcqMmO1xq8LjLwHUS6NOfc98s
+Origin: https://localhost:3000
+Referer: https://localhost:3000/

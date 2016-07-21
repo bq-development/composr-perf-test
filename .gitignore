@@ -1,0 +1,6 @@
+results.bin
+plot.html
+npm-debug.log
+logs/*
+.tmp
+targets2.txt
