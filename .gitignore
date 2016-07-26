@@ -1,4 +1,5 @@
 results.bin
+node_modules
 plot.html
 npm-debug.log
 logs/*

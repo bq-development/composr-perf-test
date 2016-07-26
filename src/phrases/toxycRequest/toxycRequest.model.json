@@ -1,8 +1,8 @@
 {
-  "url": "externalrequest",
+  "url": "toxycrequest",
   "get": {
     "doc": {
-      "description": "Calls httpbin org",
+      "description": "Calls httbin through a toxy server",
       "securedBy": [
         "oauth_2_0"
       ],
