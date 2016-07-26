@@ -1,0 +1,44 @@
+{
+  "url": "multiplerequests",
+  "get": {
+    "doc": {
+      "description": "Makes multiple requests to external services and returns the responses grouped",
+      "securedBy": [
+        "oauth_2_0"
+      ],
+      "headers": {
+        "Example-Header": {
+          "displayName": "Example header",
+          "description": "A generated example"
+        }
+      },
+      "responses": {
+        "200": {
+          "description": "Valid Response"
+        },
+        "400": {
+          "description": "Bad request"
+        },
+        "401": {
+          "description": "Not authorized"
+        },
+        "500": {
+          "description": "Internal Server Error"
+        }
+      },
+      "queryParameters": {
+        "name": {
+          "description": "Example query parameter",
+          "type": "string",
+          "example": "?name=Demo"
+        },
+        "number": {
+          "default": 10,
+          "description": "Example query parameter",
+          "type": "number",
+          "example": "?number=30"
+        }
+      }
+    }
+  }
+}
