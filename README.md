@@ -13,7 +13,7 @@
 This project uses [vegeta](https://github.com/tsenart/vegeta) to create graphs with the results
 
 ```
-vegeta attack -duration=3600s -rate=10 -targets=targets.txt > results.bin
+vegeta attack -duration=3600s -rate=10 -targets=targets/targetCached.txt > results.bin
 ```
 
 ## Generate reports
