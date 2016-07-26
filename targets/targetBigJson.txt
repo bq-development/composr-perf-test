@@ -1,0 +1,4 @@
+GET http://localhost:3000/composr/getbigjson
+Accept: application/json
+Origin: https://localhost:3000
+Referer: https://localhost:3000/
