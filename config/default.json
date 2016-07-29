@@ -56,7 +56,7 @@
   "execution": {
     "vm": false,
     "gc": false,
-    "timeout": 40000,
+    "timeout": 50000,
     "local": true
   }
 }
