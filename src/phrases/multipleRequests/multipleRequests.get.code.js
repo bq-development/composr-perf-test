@@ -2,10 +2,11 @@
 
 var request = require('request');
 var _ = require('lodash');
+var BASE_PATH ='http://localhost:4000'
 
 function getStatus(){
   return new Promise(function(resolve, reject){
-    request('http://localhost:4000/status/200', function(error, response, body){
+    request(BASE_PATH + '/status/200', function(error, response, body){
       if(error || response.statusCode !== 200){
         return reject(error || body)
       }
@@ -17,7 +18,7 @@ function getStatus(){
 function getJson(){
   return new Promise(function(resolve, reject){
     request({
-      url: 'http://httpbin.org/post', //URL to hit
+      url: BASE_PATH + '/post', //URL to hit
       method: 'POST',
       headers: {
           'Content-Type': 'MyContentType',
