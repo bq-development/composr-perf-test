@@ -38,3 +38,11 @@ _requires having [composr-cli](https://github.com/corbel-platform/composr-cli) i
 For some scenarios you may want to add some delay to external requests or network issues, for that purpose you can use [Toxy](https://www.npmjs.com/package/toxy)
 
 `node scripts/toxy` will launch a server in the port 4000 that will serve as a a proxy.
+
+## Testing composr core alone
+
+Launch `pm2 start scripts/restify -i 0` , then run : 
+
+```
+echo "GET http://localhost:8080/test" | vegeta attack -duration=60s -rate=100 | tee results.bin | vegeta report
+```
