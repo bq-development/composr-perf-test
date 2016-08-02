@@ -1,0 +1,26 @@
+{
+  "name": "composr-stress-tests",
+  "version": "1.0.0",
+  "description": "## Init",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "toxy": "^0.3.12"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bq-development/composr-perf-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bq-development/composr-perf-test/issues"
+  },
+  "homepage": "https://github.com/bq-development/composr-perf-test#readme"
+}
