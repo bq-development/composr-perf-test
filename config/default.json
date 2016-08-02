@@ -29,7 +29,7 @@
             "scopes": "composr:comp:base"
         },
         "options": {
-            "urlBase": ""
+            "urlBase": "https://composr-int.bqws.io/{{module}}/v1.0/"
         }
     },
 
@@ -51,7 +51,7 @@
     "composrLog": {
         "accessLog" : true,
         "accessLogFile" : "logs/access.log",
-        "logLevel": "error",
+        "logLevel": "debug",
         "logFile": "logs/composr.log",
         "syslog" : false
     },
