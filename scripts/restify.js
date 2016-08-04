@@ -17,7 +17,7 @@ function before() {
     url: 'test',
     version: '2.2.2',
     get: {
-      code: 'res.status(200).send("hello, world")',
+      code: 'res.send(200, "hello, world")',
       doc: {}
     }
   }];
@@ -40,7 +40,8 @@ server.get('/test', function (req, res, next) {
   composr.Phrase.runByPath('composr', 'test', 'get', {
     req: req,
     res: res,
-    next: next
+    next: next,
+    browser: true
   })
 });
 

@@ -54,4 +54,4 @@ fetchItems(req.query.page, req.query.pageSize, req.params.userId)
   });
  */
 
-res.status(200).send({ hello: 'world' });
+res.send(200, { hello: 'world' });

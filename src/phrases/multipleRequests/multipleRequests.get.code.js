@@ -49,10 +49,10 @@ function doRequests(amount){
 
 doRequests(10)
   .then(function(responses){
-    res.status(200).send({
+    res.send(200, {
       responses: responses
     })
   })
   .catch(function(err){
-    res.status(500).send(err)
+    res.send(500, err)
   });

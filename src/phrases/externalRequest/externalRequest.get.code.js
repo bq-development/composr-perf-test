@@ -15,8 +15,8 @@ function doRequest(){
 
 doRequest()
   .then(function(body){
-    res.status(200).send(body)
+    res.send(200, body)
   })
   .catch(function(err){
-    res.status(500).send(err)
+    res.send(500, err)
   });

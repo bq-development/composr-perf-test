@@ -62,7 +62,7 @@
         "key": ""
     },
 
-    "keymetrics": true,
+    "keymetrics": false,
 
     "execution": {
         "vm": false,

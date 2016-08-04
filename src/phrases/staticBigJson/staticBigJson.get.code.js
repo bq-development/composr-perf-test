@@ -345,4 +345,4 @@ var bigjson = [
   }
 ]
 
-res.status(200).send(bigjson);
+res.send(200, bigjson);
